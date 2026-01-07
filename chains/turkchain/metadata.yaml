@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+chainId: 1919
+displayName: Turkchain
+domainId: 1919
+isTestnet: false
+name: turkchain
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc.turkchain1919.com
+nativeToken:
+  decimals: 18
+  name: TC
+  symbol: TURK
+gasCurrencyOptions:
+  maxFeePerGas: "20000000000"
+  maxPriorityFeePerGas: "5000000000"
+technicalStack: other

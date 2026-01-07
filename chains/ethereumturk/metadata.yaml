@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiUrl: https://api.etherscan.io/api
+    family: etherscan
+    name: Etherscan
+    url: https://etherscan.io
+chainId: 1
+displayName: Ethereum Turk
+domainId: 1
+isTestnet: false
+name: ethereumturk
+nativeToken:
+  decimals: 18
+  name: Ether
+  symbol: ETH
+protocol: ethereum
+rpcUrls:
+  - http: https://mainnet.infura.io/v3/47b731d43fa842608be204c505cbecd1
+technicalStack: other
